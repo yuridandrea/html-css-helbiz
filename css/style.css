@@ -18,15 +18,19 @@ a {
 }
 
 /* header */
-/* .header-top {
+.fixed {
+  width: 1000px;
+  }
+
+.bg-fixed {
+  z-index: 100;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-} */
-
-.header-top {
   height: 6vh;
+  width: 100%;
+  background-color: white;
 }
 
  .logo {
@@ -61,8 +65,7 @@ header li {
 }
 
   .lg-none {
-    display: block;
-    color: black;
+    display: inline-block;
   }
 }
 
@@ -74,12 +77,12 @@ header li {
 
   .lg-none {
     display: block;
-    color: black;
+
   }
 }
 
 .jumbo {
-  /* margin-top: 6vh; */
+  margin-top: 6vh;
   height: 70vh;
   background-image: url("../img/hero-bg.jpg");
   background-size: cover;
