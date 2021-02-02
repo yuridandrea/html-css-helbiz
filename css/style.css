@@ -1,0 +1,163 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* utility */
+.container_1000 {
+  width: 73%;
+  margin: 0 auto;
+}
+
+/* header */
+/* .header-top {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.header-top {
+  height: 6vh;
+}
+
+ .logo {
+  width: 100px;
+  padding-top: 22px;
+}
+
+header li {
+  display: inline;
+  padding: 0 3px;
+  font-size: 1.5em;
+  line-height: 6vh;
+}
+
+.lingue li {
+  border-right: 1px solid black;
+  padding: 0 2px;
+}
+
+.lingue li:last-child {
+  border: none;
+}
+
+.lg-none {
+  display: none;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+ .display-none {
+  display: none;
+}
+
+  .lg-none {
+    display: block;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+   .display-none {
+    display: none;
+  }
+
+  .lg-none {
+    display: block;
+    color: black;
+  }
+}
+
+.jumbo {
+  /* margin-top: 6vh; */
+  height: 70vh;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 30%;
+  transform: translateY(-50%);
+  line-height: 70px;
+}
+
+.text h1 {
+  font-size: 5em;
+}
+.text p {
+  font-size: 2em;
+  top: 50%;
+}
+
+.btn {
+  display: inline-block;
+  width: 150px;
+  height: 70px;
+  background: black;
+  border-radius: 10px;
+}
+
+.logo-btn img {
+  margin: 10px 5px;
+  width: 100%;
+}
+
+.text-btn p, .text-btn h2 {
+  text-align: left;
+  font-size: 0.8em;
+  line-height: 20px;
+}
+
+.text-btn h2 {
+  font-size: 2em;
+}
+
+.text-btn p {
+  padding-top: 10px;
+}
+
+.google img {
+  padding: 5px;
+}
+
+.google h2 {
+  font-size: 1.7em;
+}
+.google p {
+  font-weight: bolder;
+  font-size: 1em;
+}
+/* fine header */
+
+/* main */
+.container .bikes {
+  background-color: #fafafa;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 100px;
+}
+
+.bikes img {
+  padding-top: 40px;
+  width: 40%;
+}
+
+.bg {
+  height: 60vh;
+  background-size: cover;
+  background-image: url("../img/helbizbanner.jpg");
+  background-position: center;
+}
